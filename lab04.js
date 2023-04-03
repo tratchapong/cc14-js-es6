@@ -13,3 +13,6 @@ console.log(nums3)
 const nums4 = [5, ...nums1, -6, 1, ...nums2]
 console.log(nums4)
 
+let sumNums4 = nums4.reduce( (a,c) => a+=c, 0)
+console.log(sumNums4)
+
